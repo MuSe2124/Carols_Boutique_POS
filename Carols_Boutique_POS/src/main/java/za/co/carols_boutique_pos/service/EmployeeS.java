@@ -11,8 +11,8 @@ import za.co.carols_boutique_pos.models.Employee;
  * @author muaad
  */
 public interface EmployeeS {
-     
-    String login(String employeeID, String password,String storeID);
+    
+    String login(String employeeID, String password, String storeID);
     
     String register(Employee employee);
     
