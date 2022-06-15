@@ -34,6 +34,24 @@ public class Employee {
         this.isManager = isManager;
     }
 
+    public Employee(String id, String name, String surname, String password, String storeID) {
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.password = password;
+        this.storeID = storeID;
+    }
+    
+    
+
+    public Employee(String id, String password, String storeID, Boolean isManager) {
+        this.id = id;
+        this.password = password;
+        this.storeID = storeID;
+        this.isManager = isManager;
+    }
+    
+    
     public Employee(String id, String password, String storeID) {
         this.id = id;
         this.password = password;

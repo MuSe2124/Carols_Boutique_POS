@@ -22,6 +22,12 @@ public class SaleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        switch(request.getParameter("submit")){
+            case "getLineItems":
+                break;
+            case "getReturnLineItems":
+                break;
+        }
     }
 
     @Override
