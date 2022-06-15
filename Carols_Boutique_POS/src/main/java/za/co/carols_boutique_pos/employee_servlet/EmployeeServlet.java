@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import za.co.carols_boutique_pos.models.Employee;
 import za.co.carols_boutique_pos.rest_clients.RestEmployee;
-import za.co.carols_boutique_pos.service.EmployeeS;
 
 /**
  *
